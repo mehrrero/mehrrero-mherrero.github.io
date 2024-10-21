@@ -64,7 +64,7 @@ author:
       icon: "fas fa-fw fa-link"
       url: "https://mehrrero.github.io/"
     - label: "Bluesky"
-      icon: "/assets/images/Bluesky_Logo.png"
+      icon: "fab fa-fw fa-bluesky"
       url: "https://bsky.app/profile/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -73,7 +73,7 @@ author:
 footer:
   links:
     - label: "Bluesky"
-      icon: "/assets/images/Bluesky_Logo.png"
+      icon: "fab fa-fw fa-bluesky"
       url: "https://bsky.app/profile/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
