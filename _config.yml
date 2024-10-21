@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Miriam Herrero Valea, PhD
+title: Míriam Herrero Valea, PhD
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Personal webpage of Miriam Herrero Valea, PhD.
+  Personal webpage of Míriam Herrero Valea, PhD.
 twitter_username: mehriamh.bsky.social
 github_username: mehrrero
 minimal_mistakes_skin: contrast
@@ -56,7 +56,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Míriam Herrero Valea, PhD"
+  name   : "Míriam Herrero, PhD"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Physicists interested in many things: from the theory of quantum fields to general relativity, passing by applications of deep learning to several problems."
   links:
@@ -65,19 +65,19 @@ author:
       url: "https://mehrrero.github.io/"
     - label: "Bluesky"
       icon: "fab fa-fw fa-bluesky"
-      url: "https://bsky.app/profile/"
+      url: "https://bsky.app/profile/mehriamh.bsky.social"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/mehrrero"
 
 footer:
   links:
     - label: "Bluesky"
       icon: "fab fa-fw fa-bluesky"
-      url: "https://bsky.app/profile/"
+      url: "https://bsky.app/profile/mehriamh.bsky.social"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/mehrrero"
 
 defaults:
   # _posts
