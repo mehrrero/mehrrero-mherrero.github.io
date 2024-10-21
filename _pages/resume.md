@@ -61,7 +61,7 @@ I am a senior postdoctoral researcher at the Institut de Física d’Altes Energ
 
 ## Publications and Awards
 
-- Over [35 publications](https://inspirehep.net/authors/1259025) in indexed scientific journals (Q1) with ~1050 citations h-index 19.
+- Over [35 publications](https://inspirehep.net/authors/1259025) in indexed scientific journals (Q1) with ~1050 citations and h-index 19.
 - Awarded the Tomalla Foundation Fellowship and Juan de la Cierva Incorporation 2020 Fellowship.
 
 
