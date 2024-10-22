@@ -89,6 +89,7 @@ defaults:
       read_time: true
       comments: true
       share: true
+      mathjax: true
       related: true
   # _pages
   - scope:
