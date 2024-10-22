@@ -59,7 +59,7 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Physicists interested in many things: from the theory of quantum fields to general relativity, passing by applications of deep learning to several problems."
   links:
-    - label: "Website"
+    - label: "Publications"
       icon: "fas fa-fw fa-link"
       url: "https://inspirehep.net/authors/1259025"
     - label: "Bluesky"

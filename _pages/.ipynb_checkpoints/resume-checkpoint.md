@@ -51,13 +51,13 @@ I am a senior postdoctoral researcher at the Institut de Física d’Altes Energ
 
 ## Education
 ### Universidad Autónoma de Madrid - *PhD Cum Laude in Physics*
-#### 2012 - 2016
+2012 - 2016
 
 ### Universidad Autónoma de Madrid - *MSc in Physics*
-#### 2011 - 2013
+2011 - 2013
 
 ### Universidad de Oviedo - *BSc in Physics*
-#### 2006 - 2011
+2006 - 2011
 
 ## Publications and Awards
 
