@@ -63,7 +63,7 @@ Ok, this explanation is great, I know (hats off), but we are now interested in p
 
 The first step is to build our core model, implementing the ansatz shown before. I do it here using Pytorch
 
-```
+```python 
 import torch
 import torch.nn as nn
 import torch.optim as optim
