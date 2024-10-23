@@ -138,7 +138,7 @@ class VAR(nn.Module):
 
 We have done a few things here. First, we have imported the libraries needed for this class and for the next code that we will discuss. Second, we have defined our VAR model as a child class from the nn.Module in Pytorch, which allows us to inherit all the methods and properties of the parent class. Finally, we have defined a custom forward method which predicts a point given a set of previous values of $y$ and $x$ (called here $f$, from features). The trainable parameters of the model are the matrices $A$ and $B$, as well as the vector $C$ and the set of precision values $\tau$ that enter into $U$. Note that we have explicitly demanded `requires_grad = True` in all parameters, so Pytorch can build a gradient graph for them when training the model.
 
-The next step is to wrap this into another class, where we can implement the training loop and the rest of functions that we need to make it work. This step is not needed in principle. You could do everything with functions, or even adapting the standard Pytorch workflow, but I like it better in this form since it produces a much cleaner and readable code. However, th
+The next step is to wrap this into another class, where we can implement the training loop and the rest of functions that we need to make it work. This step is not needed in principle. You could do everything with functions, or even adapting the standard Pytorch workflow, but I like it better in this form since it produces a much cleaner and readable code. However, this will have to wait for the next entry of this post series.
 
 
 
