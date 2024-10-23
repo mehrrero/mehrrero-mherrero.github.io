@@ -23,15 +23,18 @@ What you are reading is my **first** approach to autoregression, mainly fueled b
 ### The problem at hand
 
 Let us start by defining the problem that we aim to solve. We have a set of $N$ time series, which depend on time and, perhaps, on a set of exogeous features $x_a(t)$, which is just a fancy name to label any other variable which might also change with time, but which we will consider here simply as an input for our target mathematical functions
+
 $$y_i = y_i (x_a(t),t). $$
 
 Here we are using tensor notation to denote the existence of several objects of the same kind. Hence, $y_i$ denotes the set of $N$ time series, with $i\in \{1,N\}$, and $x_a(t)$ represents the $F$ features that enter as aditional variables in the function $y_i$, with $a\in \{1,F\}$. 
 
 The recipe for VAR estates that we can predict future values of $y_i(x_a(t),t)$ by using the ansatz
+
 $$ y_i(x_a(t),t) = c_i + \sum_{k=1}^\delta  A^k_{ji} y_j(x_a(t-kh),t-kh) + \sum_{k=1}^\lambda  B^k_{ai} x_a(t-kh) + U_i(t),$$
 where we are using the shorthand notation where repeated indices imply summation, i.e. $Y_a X_a = \sum_a Y_a X_a $. 
 
 Here, $\delta$ and $\lambda$ denote the number of past steps $y$ and $x$ that we use to perform a prediction at the point $t$, while $h$ is the separation in between temporal points, that we have taken to be constant. For instance, for $\delta=2$ and $\lambda=1$, the previous ansatz becomes
+
 $$y_i(x_a(t),t) = c_i + A^1_{ji} y_j(x_a(t-h),t-h) + A^2_{ji} y_j(x_a(t-2h),t-2h) + A^2_{ji} y_j(x_a(t-2h),t-2h) +  B^1{ai} x_a(t-h) + B^2{ai} x_a(t-2h)+ U_i(t). $$
 Finally, $c_i$ is just a constant term and $U_t$ is a white noise. We will go back to it later, but we can ignore it for now.
 
@@ -45,6 +48,7 @@ $$ y_i(x(t),t) = y_i(x(t_0),t_0) + \sum_{k=1}^\infty \sum_{j=1}^\infty \frac{\pa
 where the derivatives are evaluated at $t=t_0$.
 
 This contains a constant term $y_i(x(t_0),t_0)$, corresponding to the value of the time series at the collocation point $t_0$, and terms with derivatives. This is the key point here. I am not going to enter into details of why this is possible, but any derivative of a continuous function can always be written in terms of *linear combinations* [of the value of the function](https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119083405.app1) along previous (or future, but this is useless for us) points in time. For instance, a second derivative can be written as
+
 $$\frac{d^2 y_i(x(t),t)}{dt^2} \sim \frac{2 y(x(t_0),t_0)-5y(x(t_0-h),t_0-h)+4y(x(t_0-2),t_0-2)-y(x(t_0-3),t_0-3)}{h^2} $$.
 
 Thus, we can always think of the Taylor expansion in the previous formula as a linear combination of the values of $y_i(x(t),t)$ and $x(t)$ evaluated along a temporal grid, which *is precisely what the VAR ansatz does*. Hence, Taylor's theorem for a continuous function seems to give a good justification on why this ansatz works. In there, the matrices $A^k_{ij}$ and $B^k_{ij}$ seem to be parametrizing the unknown coefficients which would come with the expansion of both $y(x(t),t)$ and $x(t)$, along with, perhaps, other effects that we might ignore in our simple discussion here.
