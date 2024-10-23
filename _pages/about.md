@@ -1,8 +1,10 @@
 ---
 permalink: /about/
-title: "About"
+title: "About me"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+I am a senior postdoctoral researcher at the Institut de Física d’Altes Energies (IFAE), specializing in the application of machine learning, and computational techniques, together with theoretical insights, to physical systems. 
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+My recent work focuses on physics-informed neural networks (PINNs), deep learning methods, and data-driven simulations, with application on gravitational physics. 
+
+I bring a strong background in AI programming (Python, TensorFlow, JAX) and experience working on interdisciplinary, collaborative projects with a focus on high-performance computing and machine learning.
