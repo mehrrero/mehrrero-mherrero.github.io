@@ -57,23 +57,20 @@ plugins:
 author:
   name   : "Míriam Herrero, PhD"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Physicists interested in many things: from the theory of quantum fields to general relativity, passing by applications of deep learning to several problems."
+  bio    : "Physicist interested in many things: from the theory of quantum fields to general relativity, passing by applications of deep learning to several problems."
   links:
     - label: "Publications"
       icon: "fas fa-fw fa-link"
       url: "https://inspirehep.net/authors/1259025"
-    - label: "Bluesky"
-      icon: "fab fa-fw fa-bluesky"
-      url: "https://bsky.app/profile/mehriamh.bsky.social"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mehrrero"
 
 footer:
   links:
-    - label: "Bluesky"
-      icon: "fab fa-fw fa-bluesky"
-      url: "https://bsky.app/profile/mehriamh.bsky.social"
+    - label: "Publications"
+      icon: "fas fa-fw fa-link"
+      url: "https://inspirehep.net/authors/1259025"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mehrrero"
